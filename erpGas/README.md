@@ -1,17 +1,10 @@
-# This repository was initiated with create-react-native-web-app
+## Requirements (Tools needed)
 
-[![NPM](https://nodei.co/npm/create-react-native-web-app.png)](https://npmjs.org/package/create-react-native-web-app)
+- npm 6.14.x and above
+- yarn 1.22.x and above
+- node 12.x.x and above
+- react-native 0.63.x and above
 
-![GitHub issues](https://img.shields.io/github/issues/orYoffe/create-react-native-web-app.svg)
-![license](https://img.shields.io/github/license/orYoffe/create-react-native-web-app.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/orYoffe/create-react-native-web-app.svg)
-![npm](https://img.shields.io/npm/v/create-react-native-web-app.svg)
-
-### A simple CLI tool to start your React Native Web project to develop same app for IOS Android and Web
-
-<p align="center" >
-<img width="300"  src="https://raw.githubusercontent.com/orYoffe/create-react-native-web-app/master/template/src/logo.png">
-</p>
 
 ## Installation
 
@@ -27,21 +20,20 @@ $ cd myApp
 
 # Run Web/Ios/Android development
 # Web
-$ npm run web
+$ yarn web
+$ npm run web 
 
 # IOS (simulator)
+$ yarn ios
 $ npm run ios
 
 # Android (connected device)
+$ yarn android
 $ npm run android
 
 ```
 
-- To work with IOS and Android - Install Xcode and Android studio and follow the react native instructions [under the "Building Projects with Native Code" tab](http://facebook.github.io/react-native/docs/getting-started.html)
-
-<p align="center" >
-<img width="1000"  src="https://raw.githubusercontent.com/orYoffe/create-react-native-web-app/master/cli_preview.png">
-</p>
+- To work with IOS and Android - Install Xcode (you need a macOS device for this) and Android studio and follow the react native instructions [under the "Building Projects with Native Code" tab](http://facebook.github.io/react-native/docs/getting-started.html)
 
 ## Folder structure
 
@@ -64,5 +56,3 @@ myApp
 - [React Native for Web (react-native-web)](https://github.com/necolas/react-native-web)
 - [React](https://reactjs.org/)
 - [React Native](http://facebook.github.io/react-native/)
-- [Create React App](https://github.com/facebook/create-react-app)
-- [Create React Native App](https://github.com/react-community/create-react-native-app)
